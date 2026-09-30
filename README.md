@@ -4,7 +4,7 @@ A one-page website for **Jiko Kitchen**, a fictional restaurant in Kilimani, Nai
 
 **Live site:** https://ceciliawambui.github.io/jiko-kitchen/
 
-## Project Brief
+## Overview
 
 Jiko Kitchen needs a simple online presence where customers can:
 
@@ -16,7 +16,7 @@ Jiko Kitchen needs a simple online presence where customers can:
 
 The site is a single landing page built with HTML only. The navigation menu jumps to each section on the page.
 
-## Business Rationale
+## Features
 
 Many small restaurants in Nairobi rely only on walk-in customers and word of mouth. A website lets new customers find Jiko Kitchen online, check the menu and prices before they visit, and get in touch without needing to call.
 
