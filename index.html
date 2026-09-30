@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jiko Kitchen serves fresh, home-style Kenyan meals in Kilimani, Nairobi. See our menu, meet our team and book a table online.">
+    <title>Jiko Kitchen | Home-Style Kenyan Food in Nairobi</title>
+</head>
+<body>
+
+    <!-- Header and navigation -->
+    <header>
+        <p><strong>Jiko Kitchen</strong></p>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- 1. Hero section -->
+        <section id="home">
+            <h1>Home-style Kenyan food, cooked fresh every day</h1>
+            <p>At Jiko Kitchen we cook the meals you grew up with, using fresh ingredients from local farmers. Come in for lunch, dinner or a quick bite with friends.</p>
+            <img src="images/hero-dining-room.jpg" alt="The Jiko Kitchen dining room with wooden tables and warm hanging lights" width="320">
+            <p>
+                <a href="#menu">See our menu</a> |
+                <a href="#contact">Book a table</a>
+            </p>
+        </section>
+
+        <!-- 2. Menu (products) section -->
+        <section id="menu">
+            <h2>Our Menu</h2>
+            <p>Every dish is cooked fresh to order. All prices include VAT.</p>
+
+            <article>
+                <h3>Nyama Choma</h3>
+                <img src="images/nyama-choma.jpg" alt="Plate of grilled goat meat pieces" width="300">
+                <p>Slow-grilled goat meat served with kachumbari and ugali. Perfect for sharing with friends.</p>
+                <p><strong>Price:</strong> KSh 950</p>
+            </article>
+
+            <article>
+                <h3>Beef Pilau</h3>
+                <img src="images/pilau.jpg" alt="Plate of spiced pilau rice with pieces of beef" width="300">
+                <p>Spiced rice cooked slowly with tender beef, served with kachumbari on the side.</p>
+                <p><strong>Price:</strong> KSh 650</p>
+            </article>
+
+            <article>
+                <h3>Chapati and Beans</h3>
+                <img src="images/chapati-beans.jpg" alt="Plate of soft chapati with coconut beans" width="300">
+                <p>Soft, layered chapati served with beans cooked in coconut milk. A filling meal at a friendly price.</p>
+                <p><strong>Price:</strong> KSh 350</p>
+            </article>
+
+            <p>We also offer <strong>catering</strong> for office lunches, birthdays and family events. Send us a message through the contact form below.</p>
+        </section>
+
+        <!-- 3. About and team section -->
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Jiko Kitchen opened in 2022 in Kilimani, Nairobi. We started with one charcoal jiko and a simple idea: good Kenyan food should taste like it was made at home.</p>
+            <p>Today we serve over 200 customers a day, and we still cook everything fresh every morning.</p>
+
+            <h3>Meet Our Team</h3>
+
+            <article>
+                <img src="images/team-achieng.jpg" alt="Portrait of Achieng Otieno, founder and head chef" width="150">
+                <h4>Achieng Otieno</h4>
+                <p>Founder and Head Chef. Achieng learned to cook in her grandmother's kitchen in Kisumu.</p>
+            </article>
+
+            <article>
+                <img src="images/team-kamau.jpg" alt="Portrait of Brian Kamau, restaurant manager" width="150">
+                <h4>Brian Kamau</h4>
+                <p>Restaurant Manager. Brian makes sure every guest is welcomed and served on time.</p>
+            </article>
+
+            <article>
+                <img src="images/team-njeri.jpg" alt="Portrait of Faith Njeri, grill chef" width="150">
+                <h4>Faith Njeri</h4>
+                <p>Grill Chef. Faith is the reason our nyama choma keeps customers coming back.</p>
+            </article>
+
+            <h3>A Look Inside Our Kitchen</h3>
+            <video controls width="320" poster="images/hero-dining-room.jpg" aria-label="Short video tour of the Jiko Kitchen dining room and our dishes">
+                <source src="videos/kitchen-tour.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <!-- 4. Contact section with form -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Want to book a table or ask about catering? Send us a message and we will reply within 24 hours.</p>
+
+            <address>
+                Argwings Kodhek Road, Kilimani, Nairobi<br>
+                Phone: <a href="tel:+254700000000">+254 700 000 000</a><br>
+                Email: <a href="mailto:hello@jikokitchen.example">hello@jikokitchen.example</a>
+            </address>
+
+            <h3>Opening Hours</h3>
+            <ul>
+                <li>Monday to Friday: 7:00 AM to 9:00 PM</li>
+                <li>Saturday and Sunday: 9:00 AM to 10:00 PM</li>
+            </ul>
+
+            <h3>Send Us a Message</h3>
+            <form action="#">
+                <p>Fields marked * are required.</p>
+
+                <p>
+                    <label for="name">Full name *</label><br>
+                    <input type="text" id="name" name="name" required>
+                </p>
+
+                <p>
+                    <label for="email">Email address *</label><br>
+                    <input type="email" id="email" name="email" required>
+                </p>
+
+                <p>
+                    <label for="phone">Phone number</label><br>
+                    <input type="tel" id="phone" name="phone">
+                </p>
+
+                <p>
+                    <label for="reason">Reason for contacting us *</label><br>
+                    <select id="reason" name="reason" required>
+                        <option value="">Choose one</option>
+                        <option value="booking">Book a table</option>
+                        <option value="catering">Catering</option>
+                        <option value="feedback">Feedback</option>
+                        <option value="other">Other</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="message">Message *</label><br>
+                    <textarea id="message" name="message" rows="5" cols="30" required></textarea>
+                </p>
+
+                <p>
+                    <button type="submit">Send Message</button>
+                </p>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p><strong>Jiko Kitchen</strong>, home-style Kenyan food in Kilimani, Nairobi.</p>
+
+        <p>Follow us:</p>
+        <ul>
+            <li><a href="https://www.instagram.com/" aria-label="Jiko Kitchen on Instagram">Instagram</a></li>
+            <li><a href="https://www.facebook.com/" aria-label="Jiko Kitchen on Facebook">Facebook</a></li>
+            <li><a href="https://www.tiktok.com/" aria-label="Jiko Kitchen on TikTok">TikTok</a></li>
+        </ul>
+
+        <p><a href="#home">Back to top</a></p>
+        <p>&copy; 2026 Jiko Kitchen. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
