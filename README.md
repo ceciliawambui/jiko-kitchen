@@ -2,7 +2,7 @@
 
 A one-page website for **Jiko Kitchen**, a fictional restaurant in Kilimani, Nairobi that serves home-style Kenyan food.
 
-**Live site:** https://YOUR-USERNAME.github.io/jiko-kitchen/
+**Live site:** https://ceciliawambui.github.io/jiko-kitchen/
 
 ## Project Brief
 
@@ -60,7 +60,7 @@ jiko-kitchen/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR-USERNAME/jiko-kitchen.git
+   git clone https://ceciliawambui.github.io/jiko-kitchen/
    ```
 2. Go into the project folder:
    ```bash
@@ -73,7 +73,7 @@ jiko-kitchen/
 1. Push the project to a GitHub repository.
 2. In the repository, go to **Settings** → **Pages**.
 3. Under **Branch**, choose `main` and the `/ (root)` folder, then click **Save**.
-4. Wait a minute or two, then open `https://YOUR-USERNAME.github.io/jiko-kitchen/`.
+4. Wait a minute or two, then open `https://ceciliawambui.github.io/jiko-kitchen/`.
 
 ## Screenshots
 
